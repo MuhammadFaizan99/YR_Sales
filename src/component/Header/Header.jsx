@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <div className={HeaderStyles.header}>
       <div className={HeaderStyles.logo}>
-        <img src="../../../assets/logo.png" alt="Logo" />
+        <img src="../../../public/assets/yr_sales.png" alt="Logo" />
       </div>
       <div className={HeaderStyles.navButtons}>
         {windowWidth <= 700 ? (
