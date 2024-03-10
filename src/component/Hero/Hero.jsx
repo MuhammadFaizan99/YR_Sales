@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={HeroStyles.overlay}>
         <div className={HeroStyles.heroContent}>
           <h1 className={HeroStyles.heading}>
-            Y&R Wholesale
+          Wholesale United
             <br />
             Your Gateway to Premium Products
           </h1>
