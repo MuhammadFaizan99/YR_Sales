@@ -20,17 +20,17 @@ export default function Footer() {
       </div>
       <div className={styles.siteMap}>
         <p className={styles.siteMapTitle}>The Small Print</p>
-        <a href="#" className={styles.siteMapLink}>
+        <a href="/contact" className={styles.siteMapLink}>
           Contact
         </a>
-        <a href="#" className={styles.siteMapLink}>
+        {/* <a href="#" className={styles.siteMapLink}>
           Returns
         </a>
         <a href="#" className={styles.siteMapLink}>
           FAQs
-        </a>
+        </a> */}
       </div>
-      <div className={styles.socialMedia}>
+      {/* <div className={styles.socialMedia}>
         <p className={styles.socialMediaTitle}>Social Media</p>
         <a href="#" className={styles.socialMediaLink}>
           Instagram
@@ -41,7 +41,7 @@ export default function Footer() {
         <a href="#" className={styles.socialMediaLink}>
           Twitter
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
