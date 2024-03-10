@@ -62,22 +62,22 @@ export default function Header() {
             <ListItem button component={Link} to="/">
               <ListItemText primary="Home" />
             </ListItem>
-            <ListItem button component={Link} to="/about">
+            {/* <ListItem button component={Link} to="/about">
               <ListItemText primary="About" />
-            </ListItem>
+            </ListItem> */}
             <ListItem button component={Link} to="/contact">
               <ListItemText primary="Contact" />
             </ListItem>
-            <ListItem button component={Link} to="/faq">
+            {/* <ListItem button component={Link} to="/faq">
               <ListItemText primary="FAQ" />
-            </ListItem>
+            </ListItem> */}
           </List>
           </div>
           {windowWidth <= 700 && (
             <div className={HeaderStyles.buttons}>
-              <Button variant="contained" color="primary">
+              {/* <Button variant="contained" color="primary">
                 Dashboard
-              </Button>
+              </Button> */}
             </div>
           )}
         </Drawer>
