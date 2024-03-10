@@ -44,9 +44,9 @@ export default function Header() {
             }`}
           >
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/faq">FAQ</Link>
+            {/* <Link to="/about">About</Link> */}
+            {/* <Link to="/contact">Contact</Link> */}
+            {/* <Link to="/faq">FAQ</Link> */}
           </div>
         )}
 
@@ -85,9 +85,9 @@ export default function Header() {
         {/* Move the buttons here for windowWidth > 700px */}
         {windowWidth > 700 && (
           <div className={HeaderStyles.buttons}>
-            <Button variant="contained" color="primary">
+            {/* <Button variant="contained" color="primary">
               Dashboard
-            </Button>
+            </Button> */}
           </div>
         )}
       </div>
