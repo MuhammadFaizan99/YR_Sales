@@ -34,7 +34,7 @@ export default function Contact() {
           </div>
           <div className={styles.contactDetails}>
             <IoMdMail className={styles.icon} />
-            <span className={styles.description}>Wholesaleunited.com</span>
+            <span className={styles.description}>sales@wholesaleunited.com</span>
           </div>
           <div className={styles.contactDetails}>
             <IoMdPin className={styles.icon} />

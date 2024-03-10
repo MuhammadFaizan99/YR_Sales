@@ -1,7 +1,9 @@
 import React from "react";
 import HeroStyles from "./Hero.module.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate()
   return (
     <div className={HeroStyles.heroContainer}>
       <div className={HeroStyles.overlay}>
@@ -14,7 +16,7 @@ export default function Hero() {
           <p className={HeroStyles.subText}>
             Driving Products to Markets Nationwide
           </p>
-          <button className={HeroStyles.contactButton}>Contact Us</button>
+          <button className={HeroStyles.contactButton} onClick={(()=>{navigate("/contact")})}>Contact Us</button>
         </div>
       </div>
     </div>
